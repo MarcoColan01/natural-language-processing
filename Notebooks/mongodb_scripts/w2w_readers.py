@@ -1,5 +1,5 @@
-from nlp.wordbags import Bow
-from nlp.wordvec import Word2WordPrediction
+from mongodb_scripts.wordbags import Bow
+from mongodb_scripts.wordvec import Word2WordPrediction
 from sklearn.metrics.pairwise import cosine_similarity
 from typing import List
 import pandas as pd 
